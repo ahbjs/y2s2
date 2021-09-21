@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/src/img/logo.png">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/src/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="/src/css/dashboard.css" />
+
+</head>
+<body>
+
+<nav class="navbar navbar-default border-0  navbar-fixed-top cnav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+
+        <div class="navbar-brand" style="margin-left: 5px;padding: 0px;">
+                <img src="/src/img/logo.png" alt="Brand" style="width:55px;">
+        </div>
+
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li ><a href="/teacher" id="t_home_nav">Home</a></li>
+            <li><a href="/assignment" id="ass_nav">Assignments</a></li>
+            <li><a href="/submission" id="sub_nav">Submissions</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Announcement</a></li>
+
+            <a href="#"><button class="btn btn-info navbar-btn logout">Logout</button></a>
+
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+<div class="container-fluid" id="root" style="min-height: 563px;margin-top: 100px;">
+</div>
+
+<div class="text-center" id="loader">
+  <i class="fa fa-circle-o-notch fa-spin" style="font-size:35px;color: #5bc0de;"></i>
+  </i>
+</div>
+
+<div class="container footerSt">
+    <p>2021 CMC <i class="fa fa-copyright" aria-hidden="true"></i></p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+.bg-theme-col{
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.search{
+    margin-bottom: 15px;
+}
+
+.search input{
+    padding: 5px 10px;
+    border: 2px solid #5bc0de;
+    width: 30%;
+}
+
+.search button{
+    padding: 5px 25px;
+    border: 2px solid #5bc0de;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.btn-bind-left{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-bind-right{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.table-name{
+    margin: 0;
+    background: #5bc0de;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 100px;
+    border-bottom: 2px solid #43aece;
+    padding-right: 30px;
+}
+
+.btn-clear{
+    display: none;
+    background: #5bc0de;
+    color: #fff;
+    font-weight: bold;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 20px;
+    padding: 0px 15px 5px 15px !important;
+}
+
+.del-pad{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mark-in{
+    padding: 5px 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #c8c0c0;
+}
+
+.mark-btn{
+    padding: 4px 10px;
+    border-radius: 0px 5px 5px 0px;
+    background: #f0ad4e;
+    border: 2px solid #f0ad4e;
+    color: #fff;
+}
+
+.table{
+    border-collapse: separate;
+    border-spacing: 0;
+
+    border-top-right-radius: 4px;
+    border-top: 2px solid #5bc0de;
+    padding: 0px;
+    border-bottom: 3px solid #5bc0de;
+}
+
+.table th{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 991px) {
+    .search input {
+        width: unset;
+    }
+}

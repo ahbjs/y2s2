@@ -1,0 +1,32 @@
+.card-main{
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.card-main .row{
+    border : 2px solid #5bc0de;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.card-icon{
+    text-align: center;
+    background-color: #5bc0de;
+}
+
+.card-main i{
+    font-size: 88px;
+    padding: 10px;
+    color: #fff;
+}
+
+.card-title{
+    font-size: 18px;
+    padding-top: 25px;
+    margin:0px;
+}
+
+.card-count{
+    font-size: 28px;
+    font-weight: bold;
+}

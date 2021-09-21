@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CMS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="./src/img/logo.png">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+  -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="./src/css/dashboard.css" />
+  <link rel="stylesheet" href="./src/css/form.css" />
+
+</head>
+<body>
+
+<nav class="navbar navbar-default border-0  navbar-fixed-top cnav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+
+        <div class="navbar-brand" style="margin-left: 5px;padding: 0px;">
+                <img src="./src/img/logo.png" alt="Brand" style="width:55px;">
+        </div>
+
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Page 3</a></li>
+
+            <a href="#"><button class="btn btn-info navbar-btn signUp">Sign Up</button></a><!--
+            --><a href="#"><button class="btn btn-info navbar-btn login">Login</button></a>
+
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+<div class="container-fluid" id="root" style="min-height: 563px;margin-top: 100px;">
+
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 assForm">
+
+            <form method="POST">
+        
+                <fieldset>
+                    
+                    <legend>Add Assignment</legend>
+        
+                    <div>
+                        <label class="f-label">Title</label><br>
+                        <textarea name="title" class="theme-border" placeholder="Enter the Title..."></textarea>
+                    </div>
+                    
+                    <div>
+                        <label class="f-label">Description</label><br>
+                        <textarea name="description" class="theme-border" placeholder="Enter the Description..."></textarea>
+                    </div>
+        
+                    <label class="f-label">File</label>
+                    <div class="text-center w-100 theme-border">
+                        <label for="file" class="file-select"> <i class="fa fa-file"></i> Select</label>
+                        <input type="file" name="file" id="file" style="display: none;">
+                    </div>
+        
+                    <label class="f-label">Deadline</label>
+                    <div class="text-center w-100 theme-border">
+                        <input type="date" class="date-select" name="ddate"/>
+                    </div>
+        
+                    <button type="submit" name="submit" class="u-btn"><i class="fa fa-upload"></i> Upload</button>
+
+                </fieldset>
+            </form>
+
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+
+</div>
+
+<div class="container footerSt">
+    <p>2021 CMC <i class="fa fa-copyright" aria-hidden="true"></i></p>
+</div>
+
+</body>
+</html>

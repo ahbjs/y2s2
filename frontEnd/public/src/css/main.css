@@ -1,0 +1,63 @@
+body{
+    min-height: 100%;
+}
+.signUp{
+    border-radius: 0px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border:none;
+    padding: 7px 20px;
+    margin-left: 10px;
+}
+
+.login{
+    border-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:none;
+    padding: 7px 20px;
+    border-left: 1px solid #41a2bf;
+}
+
+.cnav{
+    padding: 10px;
+    border: none;
+    background: #fff !important;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1),0 3px 10px 0 rgba(0,0,0,0.0) !important;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.footerSt{
+    background: #fff;
+    width: 100%;
+    padding: 14px;
+    box-shadow: 0 4px 13px 0 rgba(0,0,0,0.1),0 3px 10px 0 rgba(0,0,0,0.0) !important;
+    border-bottom: 5px solid #5bc0de;
+}
+
+.footerSt p{
+    text-align: center;
+    margin:0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5bc0de;
+    padding-top: 3px;
+}
+
+.logout{
+    border-radius: 25px;
+    padding: 7px 50px;
+}
+
+.active-page{
+    color: #000 !important;
+}
+
+#loader{
+    position: fixed;
+    top: 250px;
+    left: 0;
+    right: 0;
+}
